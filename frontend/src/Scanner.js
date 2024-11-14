@@ -41,6 +41,7 @@ const Scanner = () => {
                     >
                         <option value="sql_injection">SQL Injection</option>
                         <option value="command_injection">Command Injection</option>
+                        <option value="xss">XSS</option>
                     </select>
                 </div>
 
