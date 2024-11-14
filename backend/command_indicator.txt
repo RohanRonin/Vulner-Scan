@@ -1,0 +1,12 @@
+root
+uid=
+gid=
+Linux
+Windows
+C:\Windows
+Microsoft Windows
+127.0.0.1
+localhost
+eth0
+admin
+NT AUTHORITY\SYSTEM

@@ -1,0 +1,7 @@
+Vulnerability Scan Report
+URL: http://testasp.vulnweb.com/
+Scan Type: sql_injection
+Timestamp: 2024-11-14 11:26:46
+Vulnerable: True
+Payload: ORDER BY 30
+Indicator: SQL Error

